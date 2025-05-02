@@ -3,8 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Rollz Vancouver Redirect</title>
+  <title>Rollz Vancouver - Redirecting to Instagram</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rollz Vancouver - Fresh rolled ice cream in Vancouver, BC">
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-7GNPX9HYF9"></script>
@@ -14,6 +15,73 @@
     gtag('js', new Date());
     gtag('config', 'G-7GNPX9HYF9');
   </script>
+
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-color: #f9f3f4;
+      color: #333;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .container {
+      max-width: 800px;
+      padding: 20px;
+    }
+    
+    h1 {
+      color: #e83e8c;
+      margin-bottom: 20px;
+    }
+    
+    .logo {
+      max-width: 200px;
+      margin-bottom: 30px;
+    }
+    
+    .loader {
+      border: 5px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 5px solid #e83e8c;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+      margin: 20px auto;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    p {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    
+    .social-link {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #e83e8c;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    
+    .social-link:hover {
+      background-color: #c71f76;
+    }
+  </style>
 
   <script>
     function getPlatform() {
@@ -27,7 +95,6 @@
     }
 
     // Get platform and user agent
-
     const platform = getPlatform();
     const userAgent = navigator.userAgent || 'unknown';
 
@@ -35,18 +102,26 @@
     gtag('event', 'qr_scan', {
       event_category: 'QR',
       event_label: platform,
-      user_agent: userAgent  // Note: GA4 doesn't track this automatically
+      user_agent: userAgent
     });
 
     // Delay redirect to allow event to send
     setTimeout(function () {
       window.location.href = "https://www.instagram.com/rollzicecreams/";
-    }, 500); // 1 second delay
+    }, 500); // 3 second delay to show the branding
   </script>
 </head>
 
 <body>
-  <p>Redirecting to Instagram...</p>
+  <div class="container">
+    <img src="/assets/images/rollz-logo.png" alt="Rollz Vancouver Logo" class="logo">
+    <h1>Rollz Vancouver</h1>
+    <p>Fresh rolled ice cream made just for you!</p>
+    <p>Follow us on Instagram for daily specials and events.</p>
+    <div class="loader"></div>
+    <p>Redirecting you to our Instagram page...</p>
+    <a href="https://www.instagram.com/rollzicecreams/" class="social-link">Go to Instagram Now</a>
+  </div>
 </body>
 
 </html>
