@@ -6,7 +6,7 @@ permalink: /about/
 
 # Our Story
 
-## From Thailand to Vancouver
+## From Vancouver
 
 Rollz Vancouver was founded in TK by food enthusiasts 
 
