@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>TJP Rollz Redirect</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-R4Q5PSVLKP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-R4Q5PSVLKP');
+  </script>
+
+  <script>
+    function getPlatform() {
+      const ua = navigator.userAgent || "";
+      if (/android/i.test(ua)) return "Android";
+      if (/iphone|ipad|ipod/i.test(ua)) return "iOS";
+      if (/win/i.test(ua)) return "Windows";
+      if (/mac/i.test(ua)) return "macOS";
+      if (/linux/i.test(ua)) return "Linux";
+      return "Unknown";
+    }
+
+    // Get platform and user agent
+
+    const platform = getPlatform();
+    const userAgent = navigator.userAgent || 'unknown';
+
+    // Send event to Google Analytics
+    gtag('event', 'qr_scan', {
+      event_category: 'QR',
+      event_label: platform,
+      user_agent: userAgent  // Note: GA4 doesn't track this automatically
+    });
+
+    // Delay redirect to allow event to send
+    setTimeout(function () {
+      window.location.href = "https://www.instagram.com/rollzicecreams/";
+    }, 500); // 1 second delay
+  </script>
+</head>
+
+<body>
+  <p>Redirecting to Instagram...</p>
+</body>
+
+</html>
