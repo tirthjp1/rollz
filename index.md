@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Welcome to Rollz Vancouver
+title: Home
 ---
 
 # Fresh Rolled Ice Cream Made Just For You
