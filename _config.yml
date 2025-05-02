@@ -1,3 +1,15 @@
 theme: minima
-title: Rollz YVR
-description: Rollz in YVR
+title: Rollz Vancouver
+description: Vancouver's premium rolled ice cream destination
+author: Rollz Team
+email: info@rollzyvr.com
+social:
+  instagram: rollzicecreams
+  # Add other social profiles as needed
+
+# Navigation
+header_pages:
+  - menu.md
+  - locations.md
+  - about.md
+  - contact.md
