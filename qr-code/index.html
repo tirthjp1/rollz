@@ -16,72 +16,83 @@
     gtag('config', 'G-7GNPX9HYF9');
   </script>
 
-  <style>
-    body {
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-      background-color: #f9f3f4;
-      color: #333;
-      text-align: center;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    
-    .container {
-      max-width: 800px;
-      padding: 20px;
-    }
-    
-    h1 {
-      color: #e83e8c;
-      margin-bottom: 20px;
-    }
-    
-    .logo {
-      max-width: 200px;
-      margin-bottom: 30px;
-    }
-    
-    .loader {
-      border: 5px solid #f3f3f3;
-      border-radius: 50%;
-      border-top: 5px solid #e83e8c;
-      width: 50px;
-      height: 50px;
-      animation: spin 1s linear infinite;
-      margin: 20px auto;
-    }
-    
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-    
-    p {
-      font-size: 18px;
-      margin-bottom: 15px;
-    }
-    
-    .social-link {
-      display: inline-block;
-      margin-top: 20px;
-      background-color: #e83e8c;
-      color: white;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 25px;
-      font-weight: bold;
-      transition: background-color 0.3s;
-    }
-    
-    .social-link:hover {
-      background-color: #c71f76;
-    }
-  </style>
+<style>
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f9f3f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #e83e8c;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    max-width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 10px; */
+  }
+
+  .comingsoon {
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 10px; */
+  }
+  
+  .loader {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #e83e8c;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .social-link {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #e83e8c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .social-link:hover {
+    background-color: #c71f76;
+  }
+</style>
 
   <script>
     function getPlatform() {
@@ -115,8 +126,9 @@
 <body>
   <div class="container">
     <img src="/assets/images/rollz.png" alt="Rollz Vancouver Logo" class="logo">
-    <h2 style="color: #e83e8c; font-size: 36px; margin: 30px 0; font-weight: bold;">Coming Soon<br>June 2025</h2>
-    <p>We're bringing fresh rolled ice cream to Vancouver!</p>
+    <img src="/assets/images/comingsoon.png" alt="Rollz Vancouver Coming Soon" class="comingsoon">
+    <h2 style="color: #e83e8c; font-size: 36px; margin: 10px 0; font-weight: bold;">June 2025</h2>
+    <p>We're bringing freshy rolled ice cream to Vancouver!</p>
     <p>Stay tuned for an exciting ice cream experience like no other.</p>
     <div class="loader"></div>
     <p>Redirecting you to our Instagram page...</p>
