@@ -10,9 +10,9 @@ Explore our delicious rolled ice cream flavors and toppings. Customize your crea
 
 ## Signature Rolls
 
-- **Strawberry Dream** - Fresh strawberries, white chocolate drizzle, whipped cream ($7.50)
-- **Matcha Madness** - Matcha green tea, red bean, mochi ($8.00)
-- **Cookies & Cream** - Oreo crumble, vanilla base, chocolate sauce ($7.00)
+- **Strawberry Dream** - Fresh strawberries, white chocolate drizzle, whipped cream ($TK)
+- **Matcha Madness** - Matcha green tea, red bean, mochi ($TK)
+- **Cookies & Cream** - Oreo crumble, vanilla base, chocolate sauce ($TK)
 
 ## Build Your Own
 
