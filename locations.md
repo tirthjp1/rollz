@@ -4,17 +4,13 @@ title: Locations
 permalink: /locations/
 ---
 
-# Find Rollz Near You
+# Find Us in Vancouver
 
-## Coming Soon: Vancouver Main Street
-- Opening Summer 2025
-- Located on Main street
+Visit one of our Rollz Vancouver locations for a fresh, rolled ice cream experience!
 
-- **Address**: TK, Vancouver, BC
-- **Hours**: TK
-- **Phone**:TK
-- **Special Features**: TK
+- **Vancouver**
+  - Address: 2685 Main St, Vancouver, BC V5Y 2R5
+  - Hours: Mon-Sun, 12 PM - 10 PM
+  - Phone: +(604) 283-4263
 
----
-
-[Contact us](/contact)
+[Contact Us](/contact) for inquiries or follow us on [Instagram](https://www.instagram.com/rollzicecreams/) for location-specific specials!

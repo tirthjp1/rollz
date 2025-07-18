@@ -1,11 +1,17 @@
+# Site settings
 theme: minima
 title: Rollz Vancouver
-description: Vancouver's premium rolled ice cream destination
+description: Vancouver's premium rolled ice cream destination, crafted fresh with premium ingredients.
 author: Rollz Team
 email: info@rollzyvr.com
+url: https://rollzyvr.com/ # Replace with your GitHub Pages URL
+baseurl: "" # Set to "/repository-name" if hosted in a subdirectory
+
+# Social media
 social:
-  instagram: rollzicecreams
-  # Add other social profiles as needed
+  instagram: https://www.instagram.com/rollzicecreams/
+  twitter: https://twitter.com/rollzicecreams # Add if applicable
+  facebook: https://www.facebook.com/rollzicecreams # Add if applicable
 
 # Navigation
 header_pages:
@@ -13,3 +19,32 @@ header_pages:
   - locations.md
   - about.md
   - contact.md
+
+# Minima theme settings
+minima:
+  skin: classic # Options: classic, dark, solarized, solarized-dark
+  social_links:
+    instagram: rollzicecreams
+    # Add other platforms as needed
+  date_format: "%b %-d, %Y"
+
+# SEO and plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM # GitHub Flavored Markdown
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  
+minima:
+  custom_css:
+    - /assets/css/custom.css

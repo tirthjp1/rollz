@@ -5,21 +5,31 @@ title: Home
 
 # Fresh Rolled Ice Cream Made Just For You
 
-At Rollz Vancouver, we create delicious rolled ice cream treats right before your eyes. Our artisanal process transforms fresh ingredients into beautifully crafted ice cream rolls topped with your favorite toppings.
+![Rollz Ice Cream](/assets/images/hero-icecream.jpg)
 
-## Why Rollz?
+At **Rollz Vancouver**, we craft delicious rolled ice cream treats right before your eyes. Our artisanal process transforms fresh, premium ingredients into beautifully rolled ice cream, topped with your favorite flavors and toppings. Perfect for dessert lovers and Instagram enthusiasts alike!
 
-- **Made Fresh** - Watch as we create your custom ice cream on our frozen plates
-- **Premium Ingredients** - Only the finest local and imported ingredients
-- **Unique Flavors** - Try our signature combinations or create your own
-- **Instagram-Worthy** - Every cup is a work of art worth sharing
+## Why Choose Rollz?
+
+- **Made Fresh** - Watch your custom ice cream come to life on our frozen plates.
+- **Premium Ingredients** - We use only the finest local and imported ingredients.
+- **Unique Flavors** - Explore our signature combinations or create your own masterpiece.
+- **Instagram-Worthy** - Every roll is a work of art, ready to share with #RollzVancouver.
+
+[View Our Menu](/menu) | [Find a Location](/locations)
 
 ## Our Popular Flavors
 
-Check out our [full menu](/menu) or stop by to try our weekly specials!
+- **Strawberry Dream** - Fresh strawberries swirled with creamy white chocolate.
+- **Matcha Madness** - Rich matcha green tea with red bean and mochi.
+- **Cookies & Cream** - Classic Oreo crumble with a vanilla base.
 
-- **Strawberry Dream** - Fresh strawberries with white chocolate
+Check out our [full menu](/menu) or visit us for our weekly specials!
 
 ## Visit Us
 
-Find us at our [locations](/locations) throughout Vancouver. Follow us on [Instagram](https://www.instagram.com/rollzicecreams/) for daily specials and events!
+Find us at our [locations](/locations) across Vancouver. Follow us on [Instagram](https://www.instagram.com/rollzicecreams/) for daily specials, events, and behind-the-scenes fun!
+
+![Store Front](/assets/images/store-front.png)
+
+[Follow Us on Instagram](https://www.instagram.com/rollzicecreams/) | [Contact Us](/contact)
