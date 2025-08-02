@@ -16,7 +16,7 @@ At **Rollz Vancouver**, we craft delicious rolled ice cream treats right before 
 - **Unique Flavors** - Explore our signature combinations or create your own masterpiece.
 - **Instagram-Worthy** - Every roll is a work of art, ready to share with #RollzVancouver.
 
-[View Our Menu](/menu) | [Find a Location](/locations)
+[View Our Menu](/qr/menu) | [Find a Location](/locations)
 
 ## Our Popular Flavors
 
@@ -24,7 +24,7 @@ At **Rollz Vancouver**, we craft delicious rolled ice cream treats right before 
 - **Matcha Madness** - Rich matcha green tea with red bean and mochi.
 - **Cookies & Cream** - Classic Oreo crumble with a vanilla base.
 
-Check out our [full menu](/menu) or visit us for our weekly specials!
+Check out our [full menu](/qr/menu) or visit us for our weekly specials!
 
 ## Visit Us
 
