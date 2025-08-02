@@ -1,5 +1,5 @@
 ---
-title: Rollz Vancouver Menu
+title: Menu
 description: Rollz Vancouver Menu
 permalink: /qr/menu
 layout: none
