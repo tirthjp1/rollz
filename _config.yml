@@ -15,7 +15,7 @@ social:
 
 # Navigation
 header_pages:
-  - /qr/menu/menu.md
+  - /qr/menu/index.html
   - locations.md
   - about.md
   - contact.md
