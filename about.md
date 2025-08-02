@@ -10,4 +10,4 @@ At Rollz Vancouver, we’re passionate about creating unforgettable dessert expe
 
 Join us for a treat that’s as beautiful as it is delicious!
 
-[See Our Menu](/menu) | [Find a Location](/locations)
+[See Our Menu](/qr/menu) | [Find a Location](/locations)
