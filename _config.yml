@@ -9,9 +9,9 @@ baseurl: "" # Set to "/repository-name" if hosted in a subdirectory
 
 # Social media
 social:
-  instagram: https://www.instagram.com/rollzicecreams/
-  twitter: https://twitter.com/rollzicecreams # Add if applicable
-  facebook: https://www.facebook.com/rollzicecreams # Add if applicable
+  instagram: https://www.instagram.com/rollzvancouver/
+  # twitter: https://twitter.com/rollzvancouver # Add if applicable
+  # facebook: https://www.facebook.com/rollzicecreams # Add if applicable
 
 # Navigation
 header_pages:
