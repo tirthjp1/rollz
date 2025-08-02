@@ -10,6 +10,6 @@ Have a question or want to share your Rollz experience? Reach out to us!
 
 - **Email**: [info@rollzyvr.com](mailto:info@rollzyvr.com)
 - **Phone**: +(604) 283-4263
-- **Follow Us**: [Instagram](https://www.instagram.com/rollzicecreams/)
+- **Follow Us**: [Instagram](https://www.instagram.com/rollzvancouver/)
 
 We’d love to hear from you!
