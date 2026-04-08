@@ -34,6 +34,7 @@ google_analytics: "G-7GNPX9HYF9"
 # Navigation
 header_pages:
   - menu.md
+  - gallery.md
   - order.md
   - about.md
   - locations.md
