@@ -9,7 +9,7 @@ description: "Contact Rollz Ice Cream Vancouver. Reach us by phone, email, or vi
 
 We'd love to hear from you — whether it's a question, feedback, or catering inquiry.
 
-- **Address:** [2685 Main St, Vancouver, BC V5Y 2R5]({{ site.google_maps_url }})
+- **Address:** [{{ site.address }}]({{ site.google_maps_url }})
 - **Phone:** [{{ site.phone }}](tel:{{ site.phone }})
 - **Email:** [{{ site.email }}](mailto:{{ site.email }})
 - **Hours:** {{ site.hours }}

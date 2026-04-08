@@ -22,7 +22,7 @@ Both platforms offer delivery and pickup options:
 2. **Choose** delivery to your door or pickup at our location
 3. **Enjoy** freshly made rolled ice cream
 
-📍 **Pickup Location:** 2685 Main St, Vancouver, BC V5Y 2R5
+📍 **Pickup Location:** {{ site.address }}
 🕐 **Hours:** {{ site.hours }}
 
 Of course, you're always welcome to walk in — no order needed.

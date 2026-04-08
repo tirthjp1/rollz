@@ -11,7 +11,7 @@ description: "Find Rollz Ice Cream Vancouver at 2685 Main St. Hours, directions,
 
 ## Rollz Ice Cream — Main Street, Vancouver
 
-📍 **2685 Main St, Vancouver, BC V5Y 2R5**
+📍 **{{ site.address }}**
 
 🕐 **Hours:** {{ site.hours }}
 
