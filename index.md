@@ -1,35 +1,44 @@
 ---
-layout: home
-title: Home
+layout: default
+title: "Rollz Ice Cream Vancouver — Freshly Rolled Ice Cream on Main St"
+description: "Vancouver's freshly rolled ice cream shop at 2685 Main St. 50+ flavors, waffles, milkshakes & faloodas. Order pickup online or buy gift cards."
 ---
 
-# Fresh Rolled Ice Cream Made Just For You
+<div class="hero-section" markdown="1">
 
-![Rollz Ice Cream](/assets/images/hero-icecream.jpg)
+# Freshly Rolled Ice Cream, Made For You 🍦
 
-At **Rollz Vancouver**, we craft delicious rolled ice cream treats right before your eyes. Our artisanal process transforms fresh, premium ingredients into beautifully rolled ice cream, topped with your favorite flavors and toppings. Perfect for dessert lovers and Instagram enthusiasts alike!
+Handcrafted Thai-style rolled ice cream at **2685 Main St, Vancouver**. Watch your custom creation come to life on our frozen plates — choose from 50+ flavors, waffles, milkshakes, and faloodas.
 
-## Why Choose Rollz?
+<div class="cta-buttons">
+  <a href="{{ site.ubereats_url }}" class="btn btn-pink" target="_blank" rel="noopener">Order on Uber Eats</a>
+  <a href="{{ site.skipthedishes_url }}" class="btn btn-blue" target="_blank" rel="noopener">Order on SkipTheDishes</a>
+  <a href="/menu/" class="btn btn-outline">View Menu</a>
+</div>
 
-- **Made Fresh** - Watch your custom ice cream come to life on our frozen plates.
-- **Premium Ingredients** - We use only the finest local and imported ingredients.
-- **Unique Flavors** - Explore our signature combinations or create your own masterpiece.
-- **Instagram-Worthy** - Every roll is a work of art, ready to share with #RollzVancouver.
+</div>
 
-[View Our Menu](/qr/menu) | [Find a Location](/locations)
+---
 
-## Our Popular Flavors
+## Why Rollz Vancouver?
 
-- **Strawberry Dream** - Fresh strawberries swirled with creamy white chocolate.
-- **Matcha Madness** - Rich matcha green tea with red bean and mochi.
-- **Cookies & Cream** - Classic Oreo crumble with a vanilla base.
+- **Made Fresh** — Watch your ice cream rolled right in front of you on our frozen plates
+- **50+ Flavors** — From Mango Delight to Ferrero Rocher to Maharaja Paan
+- **Local Love** — We source BC ingredients whenever possible
+- **Order Ahead** — Get delivery or pickup on [Uber Eats]({{ site.ubereats_url }}) or [SkipTheDishes]({{ site.skipthedishes_url }})
 
-Check out our [full menu](/qr/menu) or visit us for our weekly specials!
+---
 
 ## Visit Us
 
-Find us at our [locations](/locations) across Vancouver. Follow us on [Instagram](https://www.instagram.com/rollzicecreams/) for daily specials, events, and behind-the-scenes fun!
+📍 **2685 Main St, Vancouver, BC V5Y 2R5**
+🕐 **{{ site.hours }}**
+📞 [{{ site.phone }}](tel:{{ site.phone }})
 
-![Store Front](/assets/images/store-front.png)
+<a href="{{ site.google_maps_url }}" class="btn btn-pink" target="_blank" rel="noopener">Get Directions</a>
 
-[Follow Us on Instagram](https://www.instagram.com/rollzicecreams/) | [Contact Us](/contact)
+---
+
+Follow us on [Instagram]({{ site.instagram_url }}) for daily specials, new flavors, and behind-the-scenes fun.
+
+*Part of the [Rollz Ice Cream Canada]({{ site.parent_brand_url }}) family.*

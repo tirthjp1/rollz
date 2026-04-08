@@ -1,57 +1,46 @@
-<header>
+# Rollz Ice Cream Vancouver — rollzyvr.com
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+Jekyll site for the Rollz Ice Cream Vancouver franchise, hosted on GitHub Pages.
 
-# GitHub Pages
+## Quick Guide: How to Update Your Site
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+### Add a New Blog Post / Promotion
+1. Create a new file in `_posts/` named `YYYY-MM-DD-your-title.md`
+2. Add front matter at the top:
+   ```yaml
+   ---
+   layout: post
+   title: "Your Post Title"
+   date: YYYY-MM-DD
+   categories: news flavors
+   description: "Short description for Google search results"
+   ---
+   ```
+3. Write your content in Markdown below the front matter
+4. Commit and push — the site updates automatically
 
-</header>
+### Update Menu
+Edit `menu.md` — add or remove items, update descriptions.
 
-<!--
-  <<< Author notes: Finish >>>
-  Review what we learned, ask for feedback, provide next steps.
--->
+### Update Store Hours / Contact Info
+Edit `_config.yml` — change `hours`, `phone`, `email`, `address`.
 
-## Finish
+### Update Clover Links
+Edit `_config.yml` — change `clover_order_url` and `gift_card_url`.
 
-_Congratulations friend, you've completed this course!_
+### Add Images
+Drop images into `assets/images/` and reference them as `/assets/images/filename.png`.
 
-<img src=https://octodex.github.com/images/constructocat2.jpg alt=celebrate width=300 align=right>
+## Important URLs in _config.yml
+- `clover_order_url` — Your Clover online ordering link
+- `gift_card_url` — Your Clover gift card purchase link
+- `google_analytics` — Your GA4 tracking ID
+- `instagram_url` — Your Instagram profile
 
-Your blog is now live and has been deployed!
-
-Here's a recap of all the tasks you've accomplished in your repository:
-
-- You enabled GitHub Pages.
-- You selected a theme using the config file.
-- You learned about proper directory format and file naming conventions in Jekyll.
-- You created your first blog post with Jekyll!
-
-### What's next?
-
-- Keep working on your GitHub Pages site... we love seeing what you come up with!
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages).
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+## Structure
+- `_posts/` — Blog posts and promotions
+- `_config.yml` — Site settings, links, SEO
+- `menu.md` — Full menu
+- `order.md` — Online ordering page
+- `gift-cards.md` — Gift card purchase page
+- `qr/` — QR code redirect pages (Instagram, menu PDF)

@@ -1,16 +1,30 @@
 ---
 layout: page
-title: Locations
+title: Location
 permalink: /locations/
+description: "Find Rollz Ice Cream Vancouver at 2685 Main St. Hours, directions, and contact info for our Vancouver rolled ice cream shop."
 ---
 
-# Find Us in Vancouver
+# Our Location
 
-Visit one of our Rollz Vancouver locations for a fresh, rolled ice cream experience!
+<div class="location-card" markdown="1">
 
-- **Vancouver**
-  - Address: 2685 Main St, Vancouver, BC V5Y 2R5
-  - Hours: Mon-Sun, 12 PM - 10 PM
-  - Phone: +(604) 283-4263
+## Rollz Ice Cream — Main Street, Vancouver
 
-[Contact Us](/contact) for inquiries or follow us on [Instagram](https://www.instagram.com/rollzicecreams/) for location-specific specials!
+📍 **2685 Main St, Vancouver, BC V5Y 2R5**
+
+🕐 **Hours:** {{ site.hours }}
+
+📞 **Phone:** [{{ site.phone }}](tel:{{ site.phone }})
+
+📧 **Email:** [{{ site.email }}](mailto:{{ site.email }})
+
+<a href="{{ site.google_maps_url }}" class="btn btn-pink" target="_blank" rel="noopener">Get Directions</a>
+<a href="{{ site.ubereats_url }}" class="btn btn-blue" target="_blank" rel="noopener">Uber Eats</a>
+<a href="{{ site.skipthedishes_url }}" class="btn btn-outline" target="_blank" rel="noopener">SkipTheDishes</a>
+
+</div>
+
+## Other Rollz Locations
+
+Looking for Rollz in other cities? Visit [Rollz Ice Cream Canada]({{ site.parent_brand_url }}) for all locations including Kelowna, Red Deer, and more.

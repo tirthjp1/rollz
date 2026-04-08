@@ -1,0 +1,212 @@
+---
+---
+
+@import "minima";
+
+/* Rollz Ice Cream Custom Styling */
+
+/* Color Variables */
+$rollz-pink: #e83e8c;
+$rollz-blue: #4fc3f7;
+$rollz-cream: #fff8e1;
+$rollz-dark: #343a40;
+
+/* Global Styles */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #fff;
+  color: $rollz-dark;
+}
+
+/* Header Styling */
+.site-header {
+  border-top: 5px solid $rollz-pink;
+  border-bottom: 1px solid $rollz-blue;
+  background-color: white;
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.site-title {
+  color: $rollz-pink !important;
+  font-weight: bold;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.site-logo {
+  height: 35px !important;
+  width: 35px !important;
+  max-width: 35px !important;
+  max-height: 35px !important;
+  border-radius: 0 !important;
+  object-fit: contain;
+}
+
+.site-header .site-title img {
+  height: 35px !important;
+  width: 35px !important;
+  max-width: 35px !important;
+  max-height: 35px !important;
+}
+
+.site-nav {
+  position: relative !important;
+  top: auto !important;
+  right: auto !important;
+  border: none !important;
+  background: none !important;
+}
+
+.site-nav .trigger {
+  display: flex !important;
+  gap: 20px;
+  align-items: center;
+}
+
+.site-nav .page-link {
+  color: $rollz-dark;
+  font-weight: 500;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+/* Headings */
+h1, h2, h3 { color: $rollz-pink; }
+
+/* CTA Buttons */
+.cta-buttons {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.1s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.btn-pink {
+  background-color: $rollz-pink;
+  color: white !important;
+}
+.btn-pink:hover { background-color: darken($rollz-pink, 10%); }
+
+.btn-blue {
+  background-color: $rollz-blue;
+  color: white !important;
+}
+.btn-blue:hover { background-color: darken($rollz-blue, 10%); }
+
+.btn-outline {
+  background-color: transparent;
+  color: $rollz-pink !important;
+  border: 2px solid $rollz-pink;
+}
+.btn-outline:hover {
+  background-color: $rollz-pink;
+  color: white !important;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: $rollz-cream;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+/* Featured Menu Items */
+.menu-feature {
+  background-color: $rollz-cream;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* Location Cards */
+.location-card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Footer Styling */
+.site-footer {
+  background-color: $rollz-dark;
+  color: white;
+  border-top: 5px solid $rollz-pink;
+}
+
+.footer-col-wrapper { color: #ccc; }
+.footer-heading { color: white; }
+.social-media-list a { color: $rollz-blue; }
+
+/* Blog Post Styling */
+.post-title { color: $rollz-pink; }
+.post-content h2, .post-content h3, .post-content h4 { color: $rollz-pink; }
+
+/* Responsive Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Home page list cleanup */
+.home ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.home ul li { margin-bottom: 10px; }
+
+/* Responsive */
+@media (max-width: 600px) {
+  .cta-buttons {
+    flex-direction: column;
+  }
+  .btn {
+    text-align: center;
+    width: 100%;
+  }
+  .hero-section {
+    padding: 20px;
+  }
+  .site-header .wrapper {
+    flex-wrap: wrap;
+  }
+  .site-nav .trigger {
+    display: none !important;
+  }
+  .site-nav input:checked ~ .trigger {
+    display: flex !important;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+}

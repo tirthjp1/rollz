@@ -1,50 +1,65 @@
 # Site settings
 theme: minima
-title: Rollz Vancouver
-description: Vancouver's premium rolled ice cream destination, crafted fresh with premium ingredients.
-author: Rollz Team
+title: Rollz Ice Cream Vancouver
+description: >-
+  Vancouver's freshly rolled ice cream destination. Handcrafted Thai-style rolled ice cream,
+  waffles, milkshakes & faloodas at 2685 Main St. Order pickup via Clover, buy gift cards,
+  and explore 50+ flavors.
+author: Rollz Vancouver
 email: info@rollzyvr.com
-url: https://rollzyvr.com/ # Replace with your GitHub Pages URL
-baseurl: "" # Set to "/repository-name" if hosted in a subdirectory
+url: "https://rollzyvr.com"
+baseurl: ""
+
+# Location info (used in templates and structured data)
+phone: "+1-604-283-4263"
+address: "2685 Main St, Vancouver, BC V5Y 2R5"
+hours: "Mon–Sun, 3 PM – 10 PM"
+google_maps_url: "https://maps.google.com/?q=2685+Main+St+Vancouver+BC+V5Y+2R5"
+
+# Online ordering
+ubereats_url: "https://www.ubereats.com/ca/store/rollz-ice-cream-%26-desserts-vancouver-2685-main-st/JdOSxWqRTDua8GQM9edjEQ"
+skipthedishes_url: "https://www.skipthedishes.com/rollz-ice-cream-main-street"
+
+# Parent franchise
+parent_brand_url: "https://www.rollzicecream.ca"
 
 # Social media
-social:
-  instagram: https://www.instagram.com/rollzvancouver/
-  # twitter: https://twitter.com/rollzvancouver # Add if applicable
-  # facebook: https://www.facebook.com/rollzicecreams # Add if applicable
+instagram_url: "https://www.instagram.com/rollzvancouver/"
+tiktok_url: "https://www.tiktok.com/@rollzvancouver"
+facebook_url: "https://www.facebook.com/rollzicecream"
+
+# Google Analytics
+google_analytics: "G-7GNPX9HYF9"
 
 # Navigation
 header_pages:
-  - qr/menu/menu.md
-  - locations.md
+  - menu.md
+  - order.md
   - about.md
+  - locations.md
   - contact.md
 
 # Minima theme settings
 minima:
-  skin: classic # Options: classic, dark, solarized, solarized-dark
+  skin: classic
   social_links:
-    instagram: rollzicecreams
-    # Add other platforms as needed
+    instagram: rollzvancouver
   date_format: "%b %-d, %Y"
 
 # SEO and plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
 
 # Markdown settings
 markdown: kramdown
 kramdown:
-  input: GFM # GitHub Flavored Markdown
+  input: GFM
 
 # Exclude files from processing
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  
-minima:
-  custom_css:
-    - /assets/css/custom.css
+  - qr-beta
+  - qr-code

@@ -1,0 +1,56 @@
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+
+<!-- Google tag (gtag.js) -->
+{% if site.google_analytics %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.google_analytics }}');
+</script>
+{% endif %}
+
+<!-- Local Business Structured Data for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "IceCreamShop",
+  "name": "Rollz Ice Cream Vancouver",
+  "image": "{{ '/assets/images/rollz.png' | absolute_url }}",
+  "url": "{{ site.url }}",
+  "telephone": "{{ site.phone }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2685 Main St",
+    "addressLocality": "Vancouver",
+    "addressRegion": "BC",
+    "postalCode": "V5Y 2R5",
+    "addressCountry": "CA"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "12:00",
+    "closes": "22:00"
+  },
+  "servesCuisine": "Ice Cream, Rolled Ice Cream, Desserts",
+  "priceRange": "$$",
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Rollz Ice Cream Canada",
+    "url": "{{ site.parent_brand_url }}"
+  },
+  "sameAs": [
+    "{{ site.instagram_url }}",
+    "{{ site.facebook_url }}"
+  ]
+}
+</script>
+
+<!-- Open Graph defaults -->
+<meta property="og:locale" content="en_CA" />
+<meta property="og:site_name" content="Rollz Ice Cream Vancouver" />
