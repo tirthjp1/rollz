@@ -14,15 +14,35 @@
 </script>
 {% endif %}
 
-<!-- Local Business Structured Data for SEO -->
+<!-- Open Graph image for social sharing -->
+<meta property="og:image" content="{{ site.url }}/assets/images/rollz.png" />
+<meta property="og:locale" content="en_CA" />
+<meta property="og:site_name" content="Rollz Ice Cream Vancouver" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="{{ site.url }}/assets/images/rollz.png" />
+
+<!-- Geo tags for local SEO -->
+<meta name="geo.region" content="CA-BC" />
+<meta name="geo.placename" content="Vancouver" />
+<meta name="geo.position" content="49.2577;-123.1008" />
+<meta name="ICBM" content="49.2577, -123.1008" />
+
+<!-- Local Business Structured Data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "IceCreamShop",
+  "@id": "{{ site.url }}/#business",
   "name": "Rollz Ice Cream Vancouver",
-  "image": "{{ '/assets/images/rollz.png' | absolute_url }}",
+  "alternateName": "Rollz Vancouver",
+  "description": "Freshly rolled Thai-style ice cream shop in Vancouver with 50+ flavors, kulfi, waffles, milkshakes, and faloodas.",
+  "image": "{{ site.url }}/assets/images/rollz.png",
+  "logo": "{{ site.url }}/assets/images/rollz.png",
   "url": "{{ site.url }}",
   "telephone": "{{ site.phone }}",
+  "email": "{{ site.email }}",
+  "menu": "{{ site.url }}/menu/",
+  "acceptsReservations": false,
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "2685 Main St",
@@ -31,14 +51,52 @@
     "postalCode": "V5Y 2R5",
     "addressCountry": "CA"
   },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 49.2577,
+    "longitude": -123.1008
+  },
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-    "opens": "12:00",
+    "opens": "15:00",
     "closes": "22:00"
   },
-  "servesCuisine": "Ice Cream, Rolled Ice Cream, Desserts",
-  "priceRange": "$$",
+  "servesCuisine": ["Ice Cream", "Rolled Ice Cream", "Kulfi", "Waffles", "Milkshakes", "Falooda", "Desserts"],
+  "priceRange": "$",
+  "currenciesAccepted": "CAD",
+  "paymentAccepted": "Cash, Credit Card, Debit Card",
+  "hasMenu": {
+    "@type": "Menu",
+    "url": "{{ site.url }}/menu/",
+    "hasMenuSection": [
+      {
+        "@type": "MenuSection",
+        "name": "Rolled Ice Cream",
+        "description": "Thai-style rolled ice cream with 50+ flavors"
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Kulfi",
+        "description": "Traditional South Asian kulfi flavors"
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Waffles",
+        "description": "Belgian waffles with ice cream toppings"
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Milkshakes",
+        "description": "Creamy milkshakes in multiple flavors"
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Faloodas",
+        "description": "South Asian-inspired falooda dessert drinks"
+      }
+    ]
+  },
   "parentOrganization": {
     "@type": "Organization",
     "name": "Rollz Ice Cream Canada",
@@ -46,11 +104,19 @@
   },
   "sameAs": [
     "{{ site.instagram_url }}",
-    "{{ site.facebook_url }}"
-  ]
+    "{{ site.facebook_url }}",
+    "{{ site.tiktok_url }}",
+    "{{ site.ubereats_url }}",
+    "{{ site.skipthedishes_url }}"
+  ],
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "{{ site.ubereats_url }}",
+      "actionPlatform": "https://schema.org/DesktopWebPlatform"
+    },
+    "deliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+  }
 }
 </script>
-
-<!-- Open Graph defaults -->
-<meta property="og:locale" content="en_CA" />
-<meta property="og:site_name" content="Rollz Ice Cream Vancouver" />

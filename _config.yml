@@ -1,14 +1,19 @@
 # Site settings
 theme: minima
 title: Rollz Ice Cream Vancouver
+tagline: "Freshly Rolled Ice Cream on Main St"
 description: >-
-  Vancouver's freshly rolled ice cream destination. Handcrafted Thai-style rolled ice cream,
-  waffles, milkshakes & faloodas at 2685 Main St. Order delivery or pickup on Uber Eats
-  and SkipTheDishes. Explore 50+ flavors.
+  Rollz Ice Cream Vancouver — freshly rolled Thai-style ice cream, kulfi, waffles,
+  milkshakes & faloodas at 2685 Main St, Vancouver BC. Over 50 handcrafted flavors.
+  Order delivery on Uber Eats & SkipTheDishes. Open daily.
 author: Rollz Vancouver
 email: info@rollzyvr.com
 url: "https://rollzyvr.com"
 baseurl: ""
+lang: en_CA
+
+# Default social sharing image
+og_image: "/assets/images/rollz.png"
 
 # Location info (used in templates and structured data)
 phone: "+1-604-283-4263"
@@ -62,3 +67,10 @@ exclude:
   - README.md
   - qr-beta
   - qr-code
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/rollz.png

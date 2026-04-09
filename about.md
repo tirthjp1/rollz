@@ -2,7 +2,7 @@
 layout: page
 title: About Us
 permalink: /about/
-description: "About Rollz Ice Cream Vancouver — freshly rolled Thai-style ice cream at 2685 Main St. Location, hours, contact info, and more."
+description: "About Rollz Ice Cream Vancouver — freshly rolled Thai-style ice cream at 2685 Main St. Hours, directions, contact info, delivery options & more."
 ---
 
 We're a Vancouver franchise of [Rollz Ice Cream Canada]({{ site.parent_brand_url }}), bringing freshly rolled Thai-style ice cream to Main Street.

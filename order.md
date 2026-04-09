@@ -2,7 +2,7 @@
 layout: page
 title: Order Online
 permalink: /order/
-description: "Order Rollz Ice Cream Vancouver for delivery or pickup on Uber Eats and SkipTheDishes. Freshly rolled ice cream delivered to your door."
+description: "Order Rollz Ice Cream Vancouver for delivery or pickup on Uber Eats and SkipTheDishes. Rolled ice cream, kulfi, waffles & more delivered to your door in Vancouver."
 ---
 
 Get Rollz delivered to your door or order ahead for pickup. We're available on Uber Eats and SkipTheDishes.

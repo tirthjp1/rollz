@@ -2,7 +2,7 @@
 layout: page
 title: Menu
 permalink: /menu/
-description: "Rollz Vancouver menu — 50+ rolled ice cream flavors, waffles, milkshakes, and faloodas. Handcrafted fresh at 2685 Main St, Vancouver BC."
+description: "Full menu at Rollz Ice Cream Vancouver — 50+ rolled ice cream flavors, kulfi, waffles, milkshakes & faloodas. Build your own roll or try our signature creations. 2685 Main St, Vancouver BC."
 ---
 
 Freshly rolled ice cream and indulgent desserts made right before your eyes. Over **50 flavors** of rolled ice cream, plus waffles, milkshakes, and South Asian-inspired faloodas. *Please inform our staff of any allergies.*
