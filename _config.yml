@@ -14,7 +14,7 @@ baseurl: ""
 phone: "+1-604-283-4263"
 address: "2685 Main St, Vancouver, BC V5Y 2R5"
 hours: "Mon–Sun, 3 PM – 10 PM"
-google_maps_url: "https://maps.google.com/?q=2685+Main+St+Vancouver+BC+V5Y+2R5"
+google_maps_url: "https://maps.app.goo.gl/ug1HBp7SoZCnSBga6"
 
 # Online ordering
 ubereats_url: "https://www.ubereats.com/ca/store/rollz-ice-cream-%26-desserts-vancouver-2685-main-st/JdOSxWqRTDua8GQM9edjEQ"
@@ -37,8 +37,6 @@ header_pages:
   - gallery.md
   - order.md
   - about.md
-  - locations.md
-  - contact.md
 
 # Minima theme settings
 minima:

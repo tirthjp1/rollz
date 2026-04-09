@@ -5,8 +5,6 @@ permalink: /gallery/
 description: "Browse our rolled ice cream, kulfi, and dessert creations at Rollz Ice Cream Vancouver. 50+ flavors handcrafted fresh."
 ---
 
-# Our Creations
-
 A taste of what's waiting for you at Rollz Vancouver. All handcrafted fresh on our frozen plates.
 
 <div class="gallery">
